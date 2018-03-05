@@ -4,7 +4,27 @@ body {
   color: #868e96;
 }
 
-img.img-size{
+.images{
+  margin: 10px;
+  width: 400px;
+  height: 400px;
+  padding: 5px;
+  border: 2px solid #868e96;
+  margin-bottom: 5px;
+}
+
+p{
+  text-align: center;
+}
+
+.list-styles{
+  list-style: none;
+  display: flex; /* display elements next to each other */
+  flex-wrap: wrap;
+  list-style: none; /* disable bullets on the LI items */
+  padding-left: 0; 
+}
+.img-size{
   width: 50px;
   height: 50px;
   margin-bottom: 0px !important;
